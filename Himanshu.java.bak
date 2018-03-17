@@ -1,0 +1,14 @@
+
+class Himanshu 
+{    int x;
+     
+
+public static void main(String args[])
+	{
+
+
+         
+        Himanshu h =new Himanshu();
+
+	}
+}

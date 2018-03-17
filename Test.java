@@ -1,0 +1,25 @@
+class Test 
+{
+	int roll;
+	private Test()
+	{
+
+	}
+	String s;
+	{
+		System.out.println(s);
+	}
+	public static void main(String[] args) 
+	{
+		//System.out.println("Hello World!");
+		Test t =new Test();
+		//System.out.println(t.roll+t.s);
+	}
+}
+class Child extends Test
+{
+	Child()
+	{
+		this();
+	}
+}

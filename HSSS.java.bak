@@ -1,0 +1,32 @@
+class HSSS 
+{static int y=100;
+static HSSS h=new HSSS();
+static int z=m1();
+	static 
+	{
+System.out.println(y);
+
+
+	}
+	
+	
+	
+	
+	{
+
+     System.out.println("NSB");
+
+	}
+static int m1()
+	{
+System.out.println("SB");
+System.out.println(x);
+
+return 10;
+	}
+	public static void main(String[] args) 
+	{HSSS p=new HSSS();
+		//System.out.println(p.y);
+	}
+	static int x=99;
+}

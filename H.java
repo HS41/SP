@@ -1,0 +1,8 @@
+class H 
+{
+	public static void main(String[] args) 
+	{   char ch='a';
+		H h = new H();
+		System.out.println(ch);
+	}
+}

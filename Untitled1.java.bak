@@ -1,0 +1,14 @@
+class Test 
+{
+	public void m1(long m)
+	{
+          System.out.println("Long arg");
+       
+	}
+	public static void main(String[] args) 
+	{
+		Test t=new Test();
+		t.m1('a');
+		//System.out.println("Hello World!");
+	}
+}

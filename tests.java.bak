@@ -1,0 +1,40 @@
+class H 
+{
+	private int x;
+	H(int x){
+		this.x=x;
+	}
+
+	@Override
+    public int hashCode(){
+		return this.x;
+	}
+
+	public int JVMHC(){
+		return super.hashCode();
+	}
+
+
+}
+
+class tests
+{
+	public static void main(String[] args){
+		H h1 = new H(5);
+		H h2 = new H(6);
+		H h3 = new H(7);
+
+		System.out.println(h1.hashCode());
+		System.out.println(h2.hashCode());
+		System.out.println(h3.hashCode());
+
+        System.out.println(System.identityHashCode(h1));
+        System.out.println(System.identityHashCode(h2));
+        System.out.println(System.identityHashCode(h3));
+
+		System.out.println(h1.JVMHC());
+		System.out.println(h2.JVMHC());
+		System.out.println(h3.JVMHC());
+		System.out.println(super.hashCode());
+}
+}

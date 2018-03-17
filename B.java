@@ -1,0 +1,15 @@
+
+class A
+{    static int x = 10;
+	static {
+		
+		{
+
+     
+
+	}
+	}
+     public static void main(String [] args){
+		 System.out.println("A class loaded");
+	 }
+}
